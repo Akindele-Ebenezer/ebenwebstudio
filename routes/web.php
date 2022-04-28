@@ -6,4 +6,4 @@ use App\Http\Controllers\MailController;
  
 Route::get('/', [ProjectController::class, 'index']);   
  
-Route::post('/mail', [MailController::class, 'mail']);
+Route::get('/mail', [MailController::class, 'mail']);
