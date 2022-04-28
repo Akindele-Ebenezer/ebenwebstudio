@@ -87,8 +87,8 @@
     </section>
 
     <section class="sec-5-wrapper" id="contact">
-        <form action="/mail"> 
-             
+        <form action="/mail" method="post"> 
+            {!! csrf_field() !!}
             <div class="form-inner">
                 <h2>Send me a message</h2>
                 <div class="inputs">

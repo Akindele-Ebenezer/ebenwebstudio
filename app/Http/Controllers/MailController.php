@@ -13,12 +13,12 @@ class MailController extends Controller {
        
       $data = array(
          
-         'name' => $_GET['name'],
-         'email' => $_GET['email'],
-         'phone_no' => $_GET['phone_no'],
-         'subject' => $_GET['subject'],
-         'company' => $_GET['company'],
-         'messages' => $_GET['message']
+         'name' => $_POST['name'],
+         'email' => $_POST['email'],
+         'phone_no' => $_POST['phone_no'],
+         'subject' => $_POST['subject'],
+         'company' => $_POST['company'],
+         'messages' => $_POST['message']
 
       );
       
