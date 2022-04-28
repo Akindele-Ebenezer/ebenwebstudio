@@ -129,7 +129,7 @@
                 <div class="form-inner-div">
                     <h2>Contact Information</h2>
                     <br>
-                    <p><strong>Ready to own a website?</strong> <br><br> Hit me up anytime. I'm open for <br> any suggestion or just to have a chat.</p>
+                    <p><strong>Ready to own a website?</strong> <br><br> Hit me up anytime. I'm open for <br> bookings whenever you're ready. If you <br> have any suggestion or just to have a chat, hit me up!</p>
                     <br>
                     <div class="contact-info"> 
                         <img src="images/email.png"> <span>info@ebenwebstudio.com</span> 
