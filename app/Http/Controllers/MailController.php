@@ -26,8 +26,7 @@ class MailController extends Controller {
 
       Mail::raw($body, function ($message) use ($data) {
         
-         $message->to('tobi.akindele@gmail.com')
-            ->from($data['email'], $data['name'])
+         $message->to('tobi.akindele@gmail.com') 
             ->subject($data['subject']);
          });
 
