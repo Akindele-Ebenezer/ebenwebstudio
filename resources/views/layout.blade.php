@@ -34,7 +34,7 @@
     <div class="toggle-nav">
         <h1><img src="images/cancel.png"></h1>
         <div>
-            <h2>Eben Web Studio</h2>
+            <h2>Eben Web <br> Studio</h2>
             <ul>
                 <li><span>01</span> Home</li>
                 <li><span>02</span> About</li>
