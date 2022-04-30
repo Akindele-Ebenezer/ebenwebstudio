@@ -67,7 +67,7 @@
         <div>
             <h2>Get in touch</h2>
             <ul>
-                <li><a href='mailto:tobi.akindele@gmail.com' target='_blank'>Gmail</a></li>
+                <li><a href='mailto:info@ebenwebstudio.com' target='_blank'>Email</a></li>
                 <li><a href='https://www.linkedin.com/in/akindele-ebenezer-566a16b8/' target='_blank'>Linkedin</a></li>
                 <li><a href='https://www.facebook.com/akindele.ebenezer/' target='_blank'>Facebook</a></li>
                 <li><a href='https://www.instagram.com/ebenezer__/?hl=en' target='_blank'>Instagram</a></li>
