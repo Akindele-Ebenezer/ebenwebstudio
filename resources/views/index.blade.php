@@ -115,7 +115,7 @@
                     <div>
                         <label for="company">Company *</label>
                         <br>
-                        <input type="text" placeholder="Company name (optional)" name="company" required>
+                        <input type="text" placeholder="Company name (optional)" name="company">
                     </div>
                     <div class="message">
                         <label for="message">Message *</label>
