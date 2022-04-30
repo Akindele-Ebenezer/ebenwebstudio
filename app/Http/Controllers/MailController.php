@@ -26,7 +26,7 @@ class MailController extends Controller {
 
       Mail::raw($body, function ($message) use ($data) {
         
-         $message->to('tobi.akindele@gmail.com') 
+         $message->to('info@ebenwebstudio.com') 
             ->subject(strip_tags($data['subject']));
          });
 
