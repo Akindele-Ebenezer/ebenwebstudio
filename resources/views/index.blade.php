@@ -95,27 +95,27 @@
                     <div>
                         <label for="name">Full Name *</label>
                         <br>
-                        <input type="text" placeholder="Your name" name="name">
+                        <input type="text" placeholder="Your name" name="name" required>
                     </div>
                     <div>
                         <label for="email">Email *</label>
                         <br>
-                        <input type="email" placeholder="Your email" name="email">
+                        <input type="email" placeholder="Your email" name="email" required>
                     </div>
                     <div>
                         <label for="phone">Phone *</label>
                         <br>
-                        <input type="number" placeholder="Phone #" name="phone_no">
+                        <input type="number" placeholder="Phone #" name="phone_no" required>
                     </div>
                     <div>
                         <label for="phone">Subject *</label>
                         <br>
-                        <input type="string" placeholder="Subject" name="subject">
+                        <input type="string" placeholder="Subject" name="subject" required>
                     </div>
                     <div>
                         <label for="company">Company *</label>
                         <br>
-                        <input type="text" placeholder="Company name (optional)" name="company">
+                        <input type="text" placeholder="Company name (optional)" name="company" required>
                     </div>
                     <div class="message">
                         <label for="message">Message *</label>
