@@ -22,12 +22,12 @@ class MailController extends Controller {
 
       );
       
-      $body = "Name - " . $data['name'] . "\n" . "Email - " . $data['email'] . "\n" . "Phone No - " . $data['phone_no'] . "\n" . "Subject - " . $data['subject'] . "\n" . "Company - " . $data['company'] . "\n\n" . "MESSAGE \n\n " . $data['messages'] . "\n";
+      $body = "Name - " . strip_tags($data['name']) . "\n" . "Email - " . strip_tags($data['email']) . "\n" . "Phone No - " . strip_tags($data['phone_no']) . "\n" . "Subject - " . strip_tags($data['subject']) . "\n" . "Company - " . strip_tags($data['company']) . "\n\n" . "MESSAGE \n\n " . strip_tags($data['messages']) . "\n";
 
       Mail::raw($body, function ($message) use ($data) {
         
          $message->to('tobi.akindele@gmail.com') 
-            ->subject($data['subject']);
+            ->subject(strip_tags($data['subject']));
          });
 
          return view('mail')->with('name', $data['name']); 
