@@ -10,7 +10,7 @@
                 <br> 
                 <p>I'm <span class="typer" id="main" data-words="Akindele Ebenezer, a Full Stack Developer, a Programmer, a UI/UX Designer, a Web Developer" data-delay="100" data-deleteDelay="1000"></span><span class="cursor" data-owner="main"></span></p>
                 <br><br><br>
-                <button >Hit me up!</button>
+                <a href="#contact"><button>Hit me up!</button></a>
             </div>
         </div>
     </section>

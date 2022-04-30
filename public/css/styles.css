@@ -167,6 +167,10 @@ section {
     padding: 1rem 2rem;
 }
 
+.sec-1-wrapper button a {
+    color: #fff;
+}
+
 .sec-1-wrapper button:hover {
     background: rgba(0, 0, 0, .5);  
     transition: .5s;
