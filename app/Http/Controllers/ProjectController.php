@@ -24,11 +24,22 @@ class ProjectController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create_new_row()
     { 
-         
+        //  $new_project = new Project;
+
+        //  $new_project->name = 'Artisan';
+        //  $new_project->image = 'Artisan Image';
+        //  $new_project->website = 'Private';
+
+        //  $new_project->save(); 
     }
 
+    public function delete_row()
+    { 
+        // $name  = "Artisan";
+        // Project::where('name', $name)->delete();
+    }
     /**
      * Store a newly created resource in storage.
      *
