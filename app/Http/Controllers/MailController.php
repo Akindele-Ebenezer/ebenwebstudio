@@ -9,16 +9,16 @@ use App\Http\Controllers\Controller;
 
 class MailController extends Controller { 
 
-   public function mail () { 
+   public function mail(Request $request) { 
        
       $data = array(
          
-         'name' => $_POST['name'],
-         'email' => $_POST['email'],
-         'phone_no' => $_POST['phone_no'],
-         'subject' => $_POST['subject'],
-         'company' => $_POST['company'],
-         'messages' => $_POST['message']
+         'name' => $request->name,
+         'email' => $request->email,
+         'phone_no' => $request->phone_no,
+         'subject' => $request->subject,
+         'company' => $request->company,
+         'messages' => $request->message
 
       );
       

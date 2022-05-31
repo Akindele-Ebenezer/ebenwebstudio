@@ -74,14 +74,14 @@
         </div>
         <div class="projects">
             @foreach($projects as $project)
-            <a href="{{ $project->website }}" target="_blank"> 
-                <div class="projects-inner">
-                    <div style="background-image: url({{ $project->image }})"></div>
-                    <br>
-                    <h2>{{ $project->name }}</h2> 
-                    <p>VISIT WEBSITE</p>
-                </div>
-            </a>
+                <a href="{{ $project->website }}" target="_blank"> 
+                    <div class="projects-inner">
+                        <div style="background-image: url({{ $project->image }})"></div>
+                        <br>
+                        <h2>{{ $project->name }}</h2> 
+                        <p>VISIT WEBSITE</p>
+                    </div>
+                </a>
             @endforeach
         </div>
     </section>
@@ -146,16 +146,6 @@
                 </div>
             </div>
         </form>
-    </section>
-
-    <script>
-        
-        const hitMeUpButton = document.querySelector('.sec-1-wrapper button');
-
-        hitMeUpButton.addEventListener('click', () => {
-            location.href = '/#contact';
-        });
-
-    </script>
+    </section> 
 
 @endsection
