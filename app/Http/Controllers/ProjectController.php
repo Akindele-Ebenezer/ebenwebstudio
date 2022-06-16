@@ -28,9 +28,9 @@ class ProjectController extends Controller
     { 
         //  $new_project = new Project;
 
-        //  $new_project->name = 'Artisan';
-        //  $new_project->image = 'Artisan Image';
-        //  $new_project->website = 'Private';
+        //  $new_project->name = 'JASMINE Sola Boutique';
+        //  $new_project->image = '/images/jasmine.jpg';
+        //  $new_project->website = 'https://www.jasminesolaboutique.com';
 
         //  $new_project->save(); 
     }
